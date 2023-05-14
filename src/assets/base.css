@@ -1,0 +1,25 @@
+@layer base {
+    :root {
+        --scrollbar_bg: #000000;
+        --scrollbar_cursor: silver;
+    }
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: var(--scrollbar_cursor) var(--scrollbar_bg);
+    }
+
+    /* Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    *::-webkit-scrollbar-track {
+        background: inherit;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: var(--scrollbar_cursor);
+        border-radius: 25px;
+    }
+
+}
