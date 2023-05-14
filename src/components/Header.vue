@@ -23,11 +23,6 @@
           :class="{'underline' : this.$router.currentRoute.value.name === 'portfolio'}"
           to="portfolio"
       >{{ $t('message.portfolio') }}</RouterLink>
-      <RouterLink
-          class="text-blue-500 hover:text-blue-600 p-2 rounded"
-          :class="{'underline' : this.$router.currentRoute.value.name === 'statistics'}"
-          to="statistics"
-      >{{ $t('message.statistics') }}</RouterLink>
     </div>
   </header>
 </template>
