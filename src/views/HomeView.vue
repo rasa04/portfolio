@@ -1,20 +1,15 @@
 <template>
   <Header />
-  <main>
-    <RouterLink
-        class="text-blue-500 hover:text-blue-600 underline p-2 rounded"
-        to="about"
-    >{{ $t("message.aboutMe") }}</RouterLink>
-    <div>
-      Hi {{ $t("message.hello") }}
-    </div>
+  <main class="w-screen">
   </main>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
+import Contact from "@/components/Contact.vue";
+import Projects from "@/components/Projects.vue";
 
 export default {
-  components: {Header}
+  components: {Projects, Contact, Header}
 }
 </script>

@@ -6,14 +6,32 @@ const i18n = createI18n({
     messages: {
         en: {
             message: {
-                hello: 'hello world',
-                aboutMe: 'About me'
+                home: 'Home',
+                name: "Abdurasul Khuzhamberdiyev",
+                aboutMe: 'About me',
+                telegram: 'Telegram',
+                github: 'Github',
+                mail: 'Mail',
+                contacts: 'Contacts',
+                portfolio: 'Portfolio',
+                projects: 'Projects',
+                code: 'code',
+                show: 'See'
             }
         },
         ru: {
             message: {
-                hello: 'привет мир',
-                aboutMe: 'Обо мне'
+                home: 'Главная страница',
+                name: "Абдурасул Хужамбердиев",
+                aboutMe: 'Обо мне',
+                telegram: 'Телеграм',
+                github: 'Гитхаб',
+                mail: 'Почта',
+                contacts: 'Связаться',
+                portfolio: 'Портфолио',
+                projects: 'Проекты',
+                code: 'код',
+                show: 'Посмотреть'
             }
         }
     }
