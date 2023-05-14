@@ -38,7 +38,7 @@ export default {
 
   data() {
     return {
-      token: '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',
+      token: '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',
       user: null
     }
   },

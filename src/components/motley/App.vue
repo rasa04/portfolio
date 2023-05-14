@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import Header from "./Header.js"
-import Content from "./Content.js"
-import Footer from "./Footer.js"
+import Header from "./Header.vue"
+import Content from "./Content.vue"
+import Footer from "./Footer.vue"
 
 export default {
     components: {
