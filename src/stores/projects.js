@@ -16,7 +16,7 @@ export const useProjectsStore = defineStore('projects', {
         description: 'Online shopping site',
         technologies: 'php | laravel | VueJS | Mysql | Tailwind',
         github: 'https://github.com/rasa04/hypershop',
-        visit: 'https://rasa.uz/store',
+        visit: 'https://store.rasa.uz',
         audience: '-'
       },
       {
@@ -32,7 +32,7 @@ export const useProjectsStore = defineStore('projects', {
         description: 'RGB tool',
         technologies: 'VueJS',
         github: 'https://github.com/rasa04/rgb',
-        visit: 'https://rasa.uz/rgb',
+        visit: 'https://rgb.rasa.uz',
         audience: '-'
       }
     ]
